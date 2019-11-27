@@ -28,6 +28,10 @@ body#home {
     background-size: cover;
 }
 
+#accessories {
+    background-color: #000;
+}
+
 nav {
     height: fit-content;
     width: 100%;
@@ -139,11 +143,18 @@ nav {
     margin: 5px auto;
 }
 
+#bike3 {
+    display: block;
+    width: 100%;
+    margin: 45px auto;
+}
+
 main {
 
     h1 {
         color: color(accent);
-        font-size: 42px;
+        font-size: 38px;
+        margin-bottom: 0;
         font-weight: bold;
         font-family: 'Roboto Condensed', sans-serif;
     }
@@ -186,6 +197,11 @@ aside {
     background-color: rgba(255, 255, 255, .3);
 }
 
+#accessories-footer {
+    position: absolute;
+    bottom: 15px;
+}
+
 footer {
     margin: 10px auto;
     width: 100%;
@@ -218,6 +234,7 @@ footer {
 }
 
 @media only screen and (min-width: 880px) {
+    //home screen
     #bike {
         width: 64%;
     }
@@ -233,6 +250,25 @@ footer {
     nav li {
         display: inline-block;
         margin: 8px;
+    }
+    //accessories
+    #bike3 {
+        position: absolute;
+        bottom: 116px;
+    }
+    #accessories-footer {
+        width: 97%;
+    }
+    #discover-more {
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        margin-left: -64px;
+    }
+    #accessories-section {
+        width: 94%;
+        text-align: center;
+        margin: 106px auto;
     }
 }
 
@@ -296,6 +332,23 @@ footer {
         position: absolute;
         bottom: 25px;
         right: 100px;
+    }
+    //accessories page
+    #bike3 {
+        bottom: 0;
+        margin: 0 auto;
+    }
+    #accessories-section {
+        position: static;
+        width: 82%;
+        margin: 127px auto;
+    }
+    #discover-more {
+        bottom: 100px;
+    }
+    #accessories-footer {
+        width: 97%;
+        left: 5px;
     }
 }
 
