@@ -220,6 +220,13 @@ footer a {
   display: inline;
 }
 
+@media only screen and (min-width: 475px) {
+  footer {
+    position: absolute;
+    bottom: 15px;
+  }
+}
+
 @media only screen and (min-width: 740px) {
   #bike {
     width: 79%;
@@ -230,6 +237,12 @@ footer a {
   }
   footer {
     width: 91%;
+    left: 4.5%;
+  }
+  #accessories-footer {
+    width: 650px;
+    left: 50%;
+    margin-left: -325px;
   }
 }
 
@@ -255,9 +268,6 @@ footer a {
   #bike3 {
     position: absolute;
     bottom: 116px;
-  }
-  #accessories-footer {
-    width: 97%;
   }
   #discover-more {
     position: absolute;
@@ -302,8 +312,8 @@ footer a {
   aside {
     display: block;
     width: 20px;
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 38%;
     left: 3%;
   }
   aside span {
@@ -340,8 +350,22 @@ footer a {
     bottom: 100px;
   }
   #accessories-footer {
-    width: 97%;
-    left: 5px;
+    width: 682px;
+    left: 50%;
+    bottom: 26px;
+    margin-left: -341px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  #bike3 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 1450px;
+    position: absolute;
+    left: 50%;
+    margin-left: -725px;
   }
 }
 /*# sourceMappingURL=main.css.map */
