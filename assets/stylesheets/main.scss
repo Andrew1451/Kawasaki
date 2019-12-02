@@ -45,10 +45,7 @@ nav {
         text-decoration: none;
         color: color(text);
         padding-bottom: 3px;
-    }
-
-    a:hover, a:active {
-        border-bottom: 1px solid color(accent);
+        border-bottom: 1px solid transparent;
     }
 
     p#logo a {
@@ -59,6 +56,10 @@ nav {
         font-size: 1em;
         color: color(text);
         position: relative;
+    }
+
+    a:hover, a:active {
+        border-bottom: 1px solid color(accent);
     }
 
     p#logo {
