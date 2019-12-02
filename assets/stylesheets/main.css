@@ -38,6 +38,11 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: #FFF;
+  padding-bottom: 3px;
+}
+
+nav a:hover, nav a:active {
+  border-bottom: 1px solid #64D130;
 }
 
 nav p#logo a {
@@ -142,6 +147,12 @@ nav span:nth-child(4).open {
   margin: 5px auto;
 }
 
+#bike2 {
+  display: block;
+  width: 90%;
+  margin: 0 12px;
+}
+
 #bike3 {
   display: block;
   width: 100%;
@@ -179,6 +190,26 @@ main h3 a {
   color: #64D130;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+}
+
+main #accessories-section {
+  position: relative;
+  top: 2px;
+}
+
+main #specs-list {
+  color: #FFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  size: 18px;
+  list-style-type: none;
+}
+
+main #specs-list li:before {
+  display: inline-block;
+  content: "-";
+  position: absolute;
+  margin-left: -1.1em;
 }
 
 #arrows {
@@ -231,6 +262,10 @@ footer a {
   #bike {
     width: 79%;
   }
+  #bike2 {
+    width: 80%;
+    margin: 0 34px;
+  }
   main section {
     width: 86%;
     margin-left: 5%;
@@ -275,10 +310,15 @@ footer a {
     left: 50%;
     margin-left: -64px;
   }
-  #accessories-section {
+  main #accessories-section {
+    position: static;
     width: 94%;
     text-align: center;
     margin: 106px auto;
+  }
+  #bike2 {
+    width: 69%;
+    margin: 0 114px;
   }
 }
 
@@ -355,6 +395,20 @@ footer a {
     bottom: 26px;
     margin-left: -341px;
   }
+  #bike2 {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    margin-top: -289px;
+    right: -5px;
+  }
+  #specs-section {
+    position: absolute;
+    top: 28%;
+    left: 2.5%;
+    width: 31%;
+  }
 }
 
 @media only screen and (min-width: 1450px) {
@@ -366,6 +420,9 @@ footer a {
     position: absolute;
     left: 50%;
     margin-left: -725px;
+  }
+  #specs-section {
+    top: 22%;
   }
 }
 /*# sourceMappingURL=main.css.map */
