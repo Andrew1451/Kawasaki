@@ -409,7 +409,7 @@ footer {
         top: 50%;
         margin: 0;
         margin-top: -289px;
-        right: -5px;
+        right: 0;
     }
     #specs-section {
         position: absolute;
@@ -430,5 +430,14 @@ footer {
     }
     #specs-section {
         top: 22%;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    #bike {
+        top: 9%;
+    }
+    #accessories-section {
+        max-width: 68%;
     }
 }
