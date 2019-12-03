@@ -24,9 +24,7 @@ body#home {
 }
 
 nav {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
   width: 100%;
   z-index: 5;
 }
@@ -77,9 +75,7 @@ nav ul {
 }
 
 nav ul.open {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
 }
 
 nav li {
@@ -290,9 +286,7 @@ footer a {
     display: none;
   }
   nav ul {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    height: auto;
     background-color: transparent;
     right: 5%;
     top: 20px;
@@ -430,6 +424,9 @@ footer a {
 @media only screen and (min-width: 1650px) {
   #bike {
     top: 9%;
+  }
+  #bike2 {
+    top: 48%;
   }
   #accessories-section {
     max-width: 68%;
